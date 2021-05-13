@@ -2,7 +2,9 @@ pipeline{
     agent any
     stages{
       stage('deploy'){
-        echo "deploy to xyz environment"
+          steps{
+              echo "deploy to xyz environment"
+          }
       }
     }
 }
