@@ -19,7 +19,7 @@ pipeline{
       }
        stage('prd-deploy'){
           when{
-            branch "prd"
+            branch "main"
           }
           steps{
               echo "deploy to prd environment"
